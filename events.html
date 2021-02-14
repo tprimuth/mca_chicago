@@ -8,6 +8,18 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/animsition.min.css">
     <link rel="stylesheet" type="text/css" href="css/elements.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( ".widget input[type=submit], .widget a, .widget button" ).button();
+      $( "button, input, a" ).click( function( event ) {
+        event.preventDefault();
+      } );
+    } );
+    </script>
   </head>
 
   <body>
@@ -90,6 +102,7 @@
             <div class="grid">
               <div class="col-3">
                 <h2 class="grid-title">Events</h2>
+                
               </div>
 
               <!--FILTERS-->
@@ -111,83 +124,133 @@
           <!--EVENT GRID-->
           <div class="container">
             <div id="event-grid" class="masonry-grid">
-                            <a href="" class="in-person grid-item col-4">
+                            <a href="" class="in-person grid-item col-4" style="margin-bottom: 30px;">
                               <div class="thumb">
-                                <div class="post-date">02/03/2021</div><img src="images/events/StrollerTour_20110829_190.jpg">
+                                <div class="post-date">02/03/2021</div>
+                                <img src="images/events/StrollerTour_20110829_190.jpg">
                               </div>
                               <div class="caption">
                                 <div class="title">Stroller Tour</div>
-                                <div class="subtitle">Monthly on the 1st Wednesday</div>
+                                <div class="subtitle col-3">Monthly on the 1st Wednesday
+                                  <!--jQuery add in-->
+                                <div class="widget" style="margin-top:5px;">
+                                  <button class="widget">Add to Calendar</button>
+                                </div>
+                                <!--jQuery add in-->
+                                </div>
                               </div>
                             </a>
 
-                              <a href="" class="in-person grid-item col-4">
+                              <a href="" class="in-person grid-item col-4" style="margin-bottom: 30px;">
                               <div class="thumb">
                                 <div class="post-date">02/07/2021</div><img src="images/events/DocentImage1.jpg">
                               </div>
                               <div class="caption">
                                 <div class="title">¡Vamos al Museo!</div>
-                                <div class="subtitle">Monthly on the 1st Sunday</div>
+                                <div class="subtitle col-3">Monthly on the 1st Sunday
+                                  <!--jQuery add in-->
+                                <div class="widget" style="margin-top:5px;">
+                                  <button class="widget">Add to Calendar</button>
+                                </div>
+                                <!--jQuery add in-->
+                                </div>
                               </div>
                             </a>
                               
-                              <a href="" class="virtual grid-item col-4">
+                              <a href="" class="virtual grid-item col-4" style="margin-bottom: 30px;">
                               <div class="thumb">
                                 <div class="post-date">02 / 11 / 21</div><img src="images/events/virtual talk .jpg">
                               </div>
                               <div class="caption">
                                 <div class="title">Talk: Carolina Caycedo</div>
-                                <div class="subtitle">Thu, Feb 11, 2021, 6–7 pm</div>
+                                <div class="subtitle col-3">Thu, Feb 11, 2021, 6–7 pm
+                                <!--jQuery add in-->
+                                <div class="widget" style="margin-top:5px;">
+                                  <button class="widget">Add to Calendar</button>
+                                </div>
+                                <!--jQuery add in-->
+                                </div>
                               </div>
                             </a>
 
-                              <a href="" class="virtual grid-item col-4">
+                              <a href="" class="virtual grid-item col-4" style="margin-bottom: 30px;">
                               <div class="thumb">
                                 <div class="post-date">02 / 13 / 21</div><img src="images/events/familyday1.jpg">
                               </div>
                               <div class="caption">
                                 <div class="title">February Virtual Family Day</div>
-                                <div class="subtitle">Sat, Feb 13, 2021, 10 am–noon</div>
+                                <div class="subtitle col-3">Sat, Feb 13, 2021, 10 am–noon
+                                  <!--jQuery add in-->
+                                <div class="widget" style="margin-top:5px;">
+                                  <button class="widget">Add to Calendar</button>
+                                </div>
+                                <!--jQuery add in-->
+                                </div>
                               </div>
                             </a>
 
-                              <a href="" class="virtual grid-item col-4">
+                              <a href="" class="virtual grid-item col-4" style="margin-bottom: 30px;">
                               <div class="thumb">
                                 <div class="post-date">02 / 23 / 21</div><img src="images/events/ABG_Primer_headshots 3.jpg">
                               </div>
                               <div class="caption">
                                 <div class="title">Talk: The Art of Theatre</div>
-                                <div class="subtitle">Tue, Feb 23, 2021, 6–7:30 pm</div>
+                                <div class="subtitle col-3">Tue, Feb 23, 2021, 6–7:30 pm
+                                  <!--jQuery add in-->
+                                <div class="widget" style="margin-top:5px;">
+                                  <button class="widget">Add to Calendar</button>
+                                </div>
+                                <!--jQuery add in-->
+                                </div>
                               </div>
                             </a>
 
-                              <a href="" class="virtual grid-item col-4">
+                              <a href="" class="virtual grid-item col-4" style="margin-bottom: 30px;">
                               <div class="thumb">
                                 <div class="post-date">02 / 26 / 21</div><img src="images/events/Nola 2.jpg">
                               </div>
                               <div class="caption">
                                 <div class="title">Soundtrack: Nola Ade</div>
-                                <div class="subtitle">Fri, Feb 26, 2021, 6–6:45 pm</div>
+                                <div class="subtitle col-3">Fri, Feb 26, 2021, 6–6:45 pm
+                                <!--jQuery add in-->
+                                <div class="widget" style="margin-top:5px;">
+                                  <button class="widget">Add to Calendar</button>
+                                </div>
+                                <!--jQuery add in-->
+                                </div>
                               </div>
                             </a>
 
-                            <a href="" class="virtual Upcoming grid-item col-4">
+                            <a href="" class="virtual Upcoming grid-item col-4" style="margin-bottom: 30px;">
                               <div class="thumb">
                                 <div class="post-date">03 / 13 / 21</div><img src="images/events/familyday2.jpg">
                               </div>
                               <div class="caption">
                                 <div class="title">March Virtual Family Day</div>
-                                <div class="subtitle">Sat, Mar 13, 2021, 10 am–noon</div>
+                                <div class="subtitle col-3">Sat, Mar 13, 2021, 10 am–noon
+                                <!--jQuery add in-->
+                                <div class="widget" style="margin-top:5px;">
+                                  <button class="widget">Add to Calendar</button>
+                                </div>
+                                <!--jQuery add in-->
+                                </div>
                               </div>
                             </a>
 
-                              <a href="" class="virtual Upcoming grid-item col-4">
+                              <a href="" class="virtual Upcoming grid-item col-4" style="margin-bottom: 30px;">
                               <div class="thumb">
                                 <div class="post-date">03 / 21 / 21</div><img src="images/events/Summer at MCA _low.jpg">
                               </div>
                               <div class="caption">
                                 <div class="title">Sensory-Friendly Morning</div>
-                                <div class="subtitle">Sun, Mar 21, 2021, 10–11 am</div>
+                                <div class="subtitle col-3">Sun, Mar 21, 2021, 10–11 am
+                                <!--jQuery add in-->
+                                <div class="widget" style="margin-top:5px;">
+                                  <button class="widget">Add to Calendar</button>
+                                </div>
+                                <!--jQuery add in-->
+                                </div>
+                              
                               </div>
                             </a>
             </div>

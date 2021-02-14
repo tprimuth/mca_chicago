@@ -741,3 +741,32 @@ p {
     display: none;
   }
 }
+
+
+/*jQuery elements*/
+button.widget{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10pt;
+  background-color: #979797;
+  color: black;
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+}
+
+button.widget:hover{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  border: none;
+}
+a.calendar{
+  width: 200px;
+  height: 200px;
+  background-color: #363636;
+  border-style:solid;
+}
